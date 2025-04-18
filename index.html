@@ -1,79 +1,82 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Keshav Gupta - Resume</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="header-content">
-                <h1>KESHAV GUPTA</h1>
-                <p>DOB: 01/09/2006 | E-mail: <a href="mailto:keshavgupta1419@gmail.com">keshavgupta1419@gmail.com</a> | Phone: 9868628218 | <a href="https://www.linkedin.com/in/keshav-gupta-546901275/">LinkedIn</a></p>
-            </div>
-        </header>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Gupta - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="logo">KG</a>
+        
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#positions">Positions</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#awards">Awards</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#interests">Interests</a></li>
             </ul>
         </nav>
+    </div>
 
-        <section id="education">
-            <h2>EDUCATIONAL QUALIFICATIONS</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Course/Examination</th>
-                        <th>Institution</th>
-                        <th>Year of Passing</th>
-                        <th>Performance</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>B.Com (Hons.)</td>
-                        <td>Sri Guru Tegh Bahadur Khalsa College (University of Delhi)</td>
-                        <td>2027</td>
-                        <td>8.27 CGPA</td>
-                    </tr>
-                    <tr>
-                        <td>BBA DBE</td>
-                        <td>Indian Institute of Management Bangalore</td>
-                        <td>2027</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>CA Foundation</td>
-                        <td>The Institute of Chartered Accountants of India (ICAI)</td>
-                        <td>2025</td>
-                        <td>304/400 <span class="highlight">Distinction</span></td>
-                    </tr>
-                    <tr>
-                        <td>AISSCE (Commerce)</td>
-                        <td>Bal Bharati Public School GRH Marg (New Delhi)</td>
-                        <td>2024</td>
-                        <td><span class="highlight">97.6%</span> [488/500]</td>
-                    </tr>
-                    <!-- <tr>
-                        <td>AISSE</td>
-                        <td>Bal Bharati Public School GRH Marg (New Delhi)</td>
-                        <td>2022</td>
-                        <td><span class="highlight">89.6%</span> [448/500]</td>
-                    </tr> -->
-                </tbody>
-            </table>
-        </section>
+    <header id="home">
+        <h1>Hi! I am Keshav</h1>
+        
+        <!-- Profile Image -->
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQG2bxbBzE9JfQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718320174566?e=1750291200&v=beta&t=xGTAGCSOK_ROvtEWWRXfbcdqJp0XJKMGMCbKrplle8A" alt="Keshav Gupta" class="profile-image">
+        
+        <div class="hero-text">
+            <p>I'm a passionate student pursuing a dual degree in Business and Commerce. Currently enrolled in B.Com (Hons.) at Delhi University and BBA at IIM Bangalore.</p>
+        </div>  
+        <div class="cta-buttons">
+            <a href="#contact" class="cta-btn primary-btn">Get in Touch</a>
+            <a href="#projects" class="cta-btn secondary-btn">View My Work</a>
+        </div>
+    </header>
+    <section id="education">
+        <h2>Educational Qualifications</h2>
+        
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>B.Com (Hons.)</h3>
+                <h4>Sri Guru Tegh Bahadur Khalsa College</h4>
+                <div class="institute">University of Delhi</div>
+                <div class="year">2027</div>
+                <div class="score">8.27 CGPA</div>
+            </div>
 
-        <section id="projects">
-            <h2>PROJECTS UNDERTAKEN (AND PUBLICATIONS)</h2>
+            <div class="education-card">
+                <h3>BBA DBE</h3>
+                <h4>Indian Institute of Management</h4>
+                <div class="institute">Bangalore</div>
+                <div class="year">2027</div>
+            </div>
+
+            <div class="education-card">
+                <h3>CA Foundation</h3>
+                <h4>The Institute of Chartered Accountants of India</h4>
+                <div class="institute">ICAI</div>
+                <div class="year">2025</div>
+                <div class="score">304/400 <span class="highlight">Distinction</span></div>
+            </div>
+
+            <div class="education-card">
+                <h3>AISSCE (Commerce)</h3>
+                <h4>Bal Bharati Public School GRH Marg</h4>
+                <div class="institute">New Delhi</div>
+                <div class="year">2024</div>
+                <div class="score"><span class="highlight">97.6%</span> [School Topper]</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects Undertaken</h2>
+        <div class="project-grid">
             <div class="project-item">
                 <h3>Financial Accounting (Accounts)</h3>
                 <p>Performed <span class="highlight">In-depth analysis of Reliance Industries</span></p>
@@ -83,62 +86,94 @@
                     <li>Presented <span class="highlight">Analytical Findings</span>: Compiled and presented findings in a structured report, effectively communicating financial insights to enhance understanding of industry performance.</li>
                 </ul>
             </div>
-        </section>
+            
+            <!-- Additional project cards can be added here -->
+        </div>
+    </section>
 
-        <section id="positions">
-            <h2>POSITIONS OF RESPONSIBILITY</h2>
-            <div class="position-item">
-                <p><span class="highlight">Interact Club</span> – Bal Bharati Public School GRH Marg <span style="float: right">[July 2022 – March 2024]</span></p>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Software Skills</h3>
+                <ul>
+                    <li><span class="highlight">Microsoft Suite</span> (Excel, Word, Powerpoint)</li>
+                    <li><span class="highlight">Canva</span></li>
+                    <li><span class="highlight">Video Editing Software</span> (Photoshop, AlightMotion, CapCut)</li>
+                </ul>
             </div>
-        </section>
+            
+            <!-- You can add more skill categories here -->
+        </div>
+    </section>
 
-        <section id="skills">
-            <h2>TECHNICAL SKILLS</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Software Skills</h3>
-                    <ul>
-                        <li><span class="highlight">Microsoft Suite</span> (Excel, Word, Powerpoint)</li>
-                        <li><span class="highlight">Canva</span></li>
-                        <li><span class="highlight">Video Editing Software</span> (Photoshop, AlightMotion, CapCut)</li>
-                    </ul>
-                </div>
+    <section id="achievements">
+        <h2>Awards and Achievements</h2>
+        
+        <div class="project-grid">
+            <div class="project-item">
+                <h3>Academic Excellence</h3>
+                <ul>
+                    <li><span class="highlight">School Topper</span> – AISSCE Class 12 – Bal Bharati Public School GRH Marg (2024)</li>
+                    <li><span class="highlight">Merit Holder</span> – Class 12 Economics – CBSE (2024)</li>
+                </ul>
             </div>
-        </section>
-
-        <section id="awards">
-            <h2>AWARDS AND ACHIEVEMENTS</h2>
-            <ul>
-                <li><span class="highlight">School Topper</span> – AISSCE Class 12 – Bal Bharati Public School GRH Marg <span style="float: right">[2024]</span></li>
-                <li><span class="highlight">Merit Holder</span> – Class 12 Economics – CBSE <span style="float: right">[2024]</span></li>
-                <li><span class="highlight">School Topper</span> – 15th International Commerce Olympiad – Commerce Teacher's Foundation <span style="float: right">[2024]</span></li>
-                <li><span class="highlight">National Rank 28</span> – National Economics Olympiad – Shri Ram College Of Commerce <span style="float: right">[2024]</span></li>
-            </ul>
-        </section>
-
-        <section id="interests">
-            <h2>OTHER INTERESTS AND ACTIVITIES</h2>
-            <div class="interests-container">
-                <div class="interest-column">
-                    <h3>Personal Interests</h3>
-                    <ul>
-                        <li><span class="highlight">Cube Solving</span>: Speed cubing and pattern recognition</li>
-                        <li><span class="highlight">Content Creation</span>: YouTube video production and editing</li>
-                        <li><span class="highlight">Chess</span>: Strategic thinking and competitive play</li>
-                    </ul>
-                </div>
-                <div class="interest-column">
-                    <h3>Extra Curriculars</h3>
-                    <ul>
-                        <li><span class="highlight">Skating</span>: Recreational and fitness activity</li>
-                        <li><span class="highlight">Music</span>: Playing the flute</li>
-                    </ul>
-                </div>
+            
+            <div class="project-item">
+                <h3>Competitions</h3>
+                <ul>
+                    <li><span class="highlight">School Topper</span> – 15th International Commerce Olympiad – Commerce Teacher's Foundation (2024)</li>
+                    <li><span class="highlight">National Rank 28</span> – National Economics Olympiad – Shri Ram College Of Commerce (2024)</li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <p>© 2024 Keshav Gupta - Resume</p>
-        </footer>
-    </body>
-    </html>
+    <section id="interests">
+        <h2>Other Interests and Activities</h2>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Personal Interests</h3>
+                <ul>
+                    <li><span class="highlight">Cube Solving</span>: Speed cubing and pattern recognition</li>
+                    <li><span class="highlight">Content Creation</span>: YouTube video production and editing</li>
+                    <li><span class="highlight">Chess</span>: Strategic thinking and competitive play</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Extra Curriculars</h3>
+                <ul>
+                    <li><span class="highlight">Skating</span>: Recreational and fitness activity</li>
+                    <li><span class="highlight">Music</span>: Playing the flute</li>
+                    <li><span class="highlight">Interact Club</span>: Bal Bharati Public School GRH Marg (July 2022 - March 2024)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p>Feel free to reach out for collaborations or just a chat!</p>
+                <p>Date of Birth: 01/09/2006</p>
+                <p>Email: <a href="mailto:keshavgupta1419@gmail.com">keshavgupta1419@gmail.com</a></p>
+                <p>Phone: 9868628218</p>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/keshav-gupta-546901275/">LinkedIn</a></p>
+                
+                <a href="mailto:keshavgupta1419@gmail.com" class="contact-button">Send Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-top">↑</div>
+
+    <script>
+       
+    </script>
+</body>
+</html>
