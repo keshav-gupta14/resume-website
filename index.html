@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keshav Gupta - Resume</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <a href="#" class="logo">KG</a>
-        
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -25,10 +24,7 @@
 
     <header id="home">
         <h1>Hi! I am Keshav</h1>
-        
-        <!-- Profile Image -->
         <img src="https://media.licdn.com/dms/image/v2/D4E03AQG2bxbBzE9JfQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718320174566?e=1750291200&v=beta&t=xGTAGCSOK_ROvtEWWRXfbcdqJp0XJKMGMCbKrplle8A" alt="Keshav Gupta" class="profile-image">
-        
         <div class="hero-text">
             <p>I'm a passionate student pursuing a dual degree in Business and Commerce. Currently enrolled in B.Com (Hons.) at Delhi University and BBA at IIM Bangalore.</p>
         </div>  
@@ -37,9 +33,9 @@
             <a href="#projects" class="cta-btn secondary-btn">View My Work</a>
         </div>
     </header>
+
     <section id="education">
         <h2>Educational Qualifications</h2>
-        
         <div class="education-grid">
             <div class="education-card">
                 <h3>B.Com (Hons.)</h3>
@@ -48,14 +44,12 @@
                 <div class="year">2027</div>
                 <div class="score">8.27 CGPA</div>
             </div>
-
             <div class="education-card">
                 <h3>BBA DBE</h3>
                 <h4>Indian Institute of Management</h4>
                 <div class="institute">Bangalore</div>
                 <div class="year">2027</div>
             </div>
-
             <div class="education-card">
                 <h3>CA Foundation</h3>
                 <h4>The Institute of Chartered Accountants of India</h4>
@@ -63,7 +57,6 @@
                 <div class="year">2025</div>
                 <div class="score">304/400 <span class="highlight">Distinction</span></div>
             </div>
-
             <div class="education-card">
                 <h3>AISSCE (Commerce)</h3>
                 <h4>Bal Bharati Public School GRH Marg</h4>
@@ -86,14 +79,11 @@
                     <li>Presented <span class="highlight">Analytical Findings</span>: Compiled and presented findings in a structured report, effectively communicating financial insights to enhance understanding of industry performance.</li>
                 </ul>
             </div>
-            
-            <!-- Additional project cards can be added here -->
         </div>
     </section>
 
     <section id="skills">
         <h2>Technical Skills</h2>
-        
         <div class="skills-container">
             <div class="skill-category">
                 <h3>Software Skills</h3>
@@ -103,14 +93,11 @@
                     <li><span class="highlight">Video Editing Software</span> (Photoshop, AlightMotion, CapCut)</li>
                 </ul>
             </div>
-            
-            <!-- You can add more skill categories here -->
         </div>
     </section>
 
     <section id="achievements">
         <h2>Awards and Achievements</h2>
-        
         <div class="project-grid">
             <div class="project-item">
                 <h3>Academic Excellence</h3>
@@ -119,7 +106,6 @@
                     <li><span class="highlight">Merit Holder</span> – Class 12 Economics – CBSE (2024)</li>
                 </ul>
             </div>
-            
             <div class="project-item">
                 <h3>Competitions</h3>
                 <ul>
@@ -132,7 +118,6 @@
 
     <section id="interests">
         <h2>Other Interests and Activities</h2>
-        
         <div class="skills-container">
             <div class="skill-category">
                 <h3>Personal Interests</h3>
@@ -142,7 +127,6 @@
                     <li><span class="highlight">Chess</span>: Strategic thinking and competitive play</li>
                 </ul>
             </div>
-            
             <div class="skill-category">
                 <h3>Extra Curriculars</h3>
                 <ul>
@@ -163,17 +147,21 @@
                 <p>Email: <a href="mailto:keshavgupta1419@gmail.com">keshavgupta1419@gmail.com</a></p>
                 <p>Phone: 9868628218</p>
                 <p>Connect with me on <a href="https://www.linkedin.com/in/keshav-gupta-546901275/">LinkedIn</a></p>
-                
                 <a href="mailto:keshavgupta1419@gmail.com" class="contact-button">Send Email</a>
             </div>
         </div>
     </section>
 
-    <!-- Scroll to top button -->
     <div class="scroll-top">↑</div>
 
     <script>
-       
+        const scrollBtn = document.querySelector('.scroll-top');
+        window.addEventListener('scroll', function() {
+            scrollBtn.classList.toggle('visible', window.pageYOffset > 300);
+        });
+        scrollBtn.addEventListener('click', function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
     </script>
 </body>
 </html>
